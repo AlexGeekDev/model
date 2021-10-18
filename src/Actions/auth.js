@@ -1,7 +1,6 @@
 import {firebase, db, googleAuthProvider } from "../DataBase/Firebase";
 
 export const regEmail = (email, password, name) => {
-  console.log('si llega')  
   try {
     firebase
         .auth()
